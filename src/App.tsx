@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import Articulos from "./pages/Articulos";
 import Sobre from "./pages/Sobre";
 import Contacto from "./pages/Contacto";
+import Suscripcion from "./pages/Suscripcion";
 import Gracias from "./pages/Gracias";
 import Privacidad from "./pages/Privacidad";
 import Cookies from "./pages/Cookies";
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/articulos" element={<Articulos />} />
           <Route path="/sobre" element={<Sobre />} />
           <Route path="/contacto" element={<Contacto />} />
+          <Route path="/suscripcion" element={<Suscripcion />} />
           <Route path="/gracias" element={<Gracias />} />
           <Route path="/privacidad" element={<Privacidad />} />
           <Route path="/cookies" element={<Cookies />} />
